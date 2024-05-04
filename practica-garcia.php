@@ -19,9 +19,8 @@ function duplicar ($num) {
 * @return float El área del círculo.
 */
 
-function calcularAreaCirculo($radio) {
-	return M_PI*pow($radio,2);
+function calcularAreaCirculo($radius) {
+	return M_PI*pow($radius,2);
 }
 
 // @internal Esta función es solo para uso interno.
-?>
